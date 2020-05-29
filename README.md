@@ -1,5 +1,4 @@
 # Kotlin Examples
 
-Bu proje Kotlin programlama dili ile ilgili örnekleri içermektedir.
+This project contains examples of Kotlin programming language.
 
-### !!! Yeni örnekler pek yakında gelecek.
