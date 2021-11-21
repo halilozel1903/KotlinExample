@@ -1,14 +1,16 @@
-# Kotlin Examples
+# Kotlin Examples 👩🏻‍💻
 
 This project contains examples of Kotlin programming language.
 
+![kotlin](https://www.udacity.com/blog/wp-content/uploads/2018/05/Kotlin-Udacity-Google.png)
+
 Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java Class Library, but type inference allows its syntax to be more concise
 
-## License
+## License ℹ️
 ```
 MIT License
 
-Copyright (c) 2020 Halil Özel
+Copyright (c) 2021 Halil OZEL
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
