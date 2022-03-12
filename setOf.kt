@@ -1,7 +1,7 @@
 /**
  * Created by ozel on 11.8.2017.
  */
-fun main(args: Array<String>) {
+fun main() {
 
     /*
     Set Collection arayüzünü miras alır.
@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
      */
 
 
-    var set_eleman = setOf("Besiktas", "Galatasaray", "Fenerbahce", "Trabzonspor", "Besiktas") // setOf ile değerler atadık.
+    val set_eleman = setOf("Besiktas", "Galatasaray", "Fenerbahce", "Trabzonspor", "Besiktas") // setOf ile değerler atadık.
     // bir değer sadece bir defa atanabilir.
     // setOf metodu eleman eklemeye ve silmeye izin vermez.
 
@@ -19,7 +19,7 @@ fun main(args: Array<String>) {
 
     println("****************")
 
-    var set_mut_eleman = mutableSetOf("Besiktas", "Galatasaray", "Fenerbahce", "Trabzonspor", "Besiktas", "Trabzonspor") // mutableSetOf ile değerler atadık.
+    val set_mut_eleman = mutableSetOf("Besiktas", "Galatasaray", "Fenerbahce", "Trabzonspor", "Besiktas", "Trabzonspor") // mutableSetOf ile değerler atadık.
     // bir değer sadece bir defa atanabilir.
     // mutableSetOf metodu eleman eklemeye ve silmeye izin verir.
 

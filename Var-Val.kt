@@ -1,7 +1,7 @@
 /**
  * Created by ozel on 13.7.2017.
  */
-fun main(args: Array<String>) {
+fun main() {
 
     val ad = "Halil" //value : değer ifade eder değiştirilemez. Javada ki final sözcüğüne denktir.
     var yas = 20 //variable : değişken anlamında kullanılır. Daha sonra değiştirilebilir.

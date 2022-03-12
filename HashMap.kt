@@ -1,7 +1,7 @@
 /**
  * Created by ozel on 11.8.2017.
  */
-fun main(args: Array<String>) {
+fun main() {
 
     /*
     HashMap Map arayüzünün bir örneğidir.
@@ -10,15 +10,15 @@ fun main(args: Array<String>) {
 
      */
 
-    var map = HashMap<Int, String>() // map adında hashmap oluşturuldu. Anahtar-Değer
+    val map = HashMap<Int, String>() // map adında hashmap oluşturuldu. Anahtar-Değer
 
     map.put(1, "Halil") //map değerleri atandı.
     map.put(2, "İbrahim")
     map.put(58, "Özel")
 
-    println(map.get(58)) // map 58 anahtarlı değeri ekranda gösterildi.
+    println(map[58]) // map 58 anahtarlı değeri ekranda gösterildi.
 
     for (k in map.keys)
-        println(map.get(k)) //map değerleri ekranda gösterildi.
+        println(map[k]) //map değerleri ekranda gösterildi.
 
 }

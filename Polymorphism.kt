@@ -10,22 +10,22 @@ Bir nesne farklı sınıflardan oluşturulmuş nesneleri yüklenebilir.
  */
 
 
-fun goster(deger:Int):Unit{
+fun goster(deger: Int) {
 
-    println("değer : "+deger)
+    println("değer : $deger")
 }
 
-fun goster(deger:Double):Unit{
+fun goster(deger: Double) {
 
-    println("değer : "+deger)
+    println("değer : $deger")
 }
 
-fun goster(deger:String):Unit{
+fun goster(deger: String) {
 
-    println("değer : "+deger)
+    println("değer : $deger")
 }
 
-fun main(args: Array<String>) {
+fun main() {
 
     goster(58)
     goster(19.03)

@@ -11,7 +11,7 @@ class Takim(Ad: String, Kurulus_Tarihi: Int, Degeri: Double, Renkleri: String) {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
 
     var Besiktas = Takim("Beşiktaş", 1903, 1000000.0, "Siyah-Beyaz") // class a değerler atandı.
     var Trabzonspor = Takim("Trabzonspor", 1967, 15000.0, "Bordo-Mavi")

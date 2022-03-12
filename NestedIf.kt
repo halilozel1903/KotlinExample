@@ -2,10 +2,10 @@
  * Created by ozel on 17.7.2017.
  */
 
-fun main(args: Array<String>) {
+fun main() {
 
-    var renk1: String = "siyah"
-    var renk2: String = "beyaz"
+    val renk1 = "siyah"
+    val renk2 = "beyaz"
 
     if (renk1 == "siyah") { //1.koşul doğru ise içindeki 2.koşula bakılır.
         if (renk2 == "beyaz") { //2.koşulda doğru ise ekrana bilgi yazdırılır.

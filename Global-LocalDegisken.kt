@@ -2,15 +2,15 @@
  * Created by ozel on 11.8.2017.
  */
 
-var ad_soyad="Halil Özel" // global değişken tanımı
+var ad_soyad = "Halil Özel" // global değişken tanımı
 
-fun ad_goster():Unit{
+fun ad_goster() {
     println(ad_soyad) // global değişken herhangi bir blokta çağrılabilir.
 }
 
-fun main(args: Array<String>) {
+fun main() {
 
-    var isim="Halil" // local değişken tanımı
+    val isim = "Halil" // local değişken tanımı
     println("isim : $isim")
 
 

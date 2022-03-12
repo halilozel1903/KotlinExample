@@ -17,7 +17,7 @@ fun cikarma(sayi1: Int, sayi2: Int, sayi3: Int): Int {
 }
 
 
-fun main(args: Array<String>) {
+fun main() {
 
     println(cikarma(10, 5))
     println(cikarma(10, 5, 10))

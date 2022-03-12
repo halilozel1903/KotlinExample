@@ -10,11 +10,11 @@ fun main(args: Array<String>) {
      */
 
     print("Vize notunuzu giriniz :")
-    var vize: Int = readLine()!!.toInt()
+    val vize: Int = readLine()!!.toInt()
     print("Final notunuzu giriniz :")
-    var final: Int = readLine()!!.toInt()
+    val final: Int = readLine()!!.toInt()
 
-    var not = (vize * 0.4) + (final * 0.6)
+    val not = (vize * 0.4) + (final * 0.6)
 
     if (not < 100 && not >= 70) {
         println("Not ortalaması :$not")

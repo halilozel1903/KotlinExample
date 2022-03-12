@@ -1,4 +1,3 @@
-import javax.jws.WebParam
 
 /**
  * Created by ozel on 11.8.2017.
@@ -34,14 +33,14 @@ class Arabam(){ // Arabam adında bir class oluşturuldu.
 
 }
 
-fun main(args: Array<String>) {
+fun main() {
 
-    var Halil_Araba=Arabam("Audi Q7",2015,1000000.0,150000,"Halil Özel") // araba ile ilgili bilgiler verildi.
-    var İbrahim_Araba=Arabam("Ferrari",2000,1800000.0,160000,"İbrahim Özel") // araba ile ilgili bilgiler verildi.
+    val Halil_Araba=Arabam("Audi Q7",2015,1000000.0,150000,"Halil Özel") // araba ile ilgili bilgiler verildi.
+    val İbrahim_Araba=Arabam("Ferrari",2000,1800000.0,160000,"İbrahim Özel") // araba ile ilgili bilgiler verildi.
 
     println("------------------------------------")
-    println("Halil'in arabasının fiyatı : "+Halil_Araba.fiyatGoster()) // Halil'in arabasının fiyatı gösterildi.
-    println("Ferrari'nin sahibi : "+İbrahim_Araba.sahibiGoster()) //Ferrari'nin sahibi gösterildi.
+    println("Halil'in arabasının fiyatı : ${Halil_Araba.fiyatGoster()}") // Halil'in arabasının fiyatı gösterildi.
+    println("Ferrari'nin sahibi : ${İbrahim_Araba.sahibiGoster()}") //Ferrari'nin sahibi gösterildi.
 
     var Ozel_Araba=Arabam(2017) // arabanın modeli verildi.
 

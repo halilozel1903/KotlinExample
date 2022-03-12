@@ -1,7 +1,7 @@
 /**
  * Created by ozel on 17.7.2017.
  */
-fun main(args: Array<String>) {
+fun main() {
 
     /*
     break ifadesi diğer programlama dillerinde olduğu gibi Kotlin'de de kullanımı aynıdır.
@@ -25,7 +25,7 @@ fun main(args: Array<String>) {
 
     loop@ for (sayi1 in 1..5) { //Her iki for'a etki etmesi için loop etiketi kullanıldı.
         for (sayi2 in 1..3) {
-            println("sayi1:" + sayi1) //koşullara göre ekranda sayi:1 2 defa yazılmış oldu.
+            println("sayi1:$sayi1") //koşullara göre ekranda sayi:1 2 defa yazılmış oldu.
             if (sayi2 == 2) break@loop
         }
 

@@ -31,11 +31,11 @@ class Araba(Turu:String,Modeli:Int,Fiyati:Double,Km:Int,Sahibi:String){ // Araba
 
 fun main(args: Array<String>) {
 
-    var Halil_Araba=Araba("Audi Q7",2015,1000000.0,150000,"Halil Özel")
-    var İbrahim_Araba=Araba("Ferrari",2000,1800000.0,160000,"İbrahim Özel")
+    val Halil_Araba=Araba("Audi Q7",2015,1000000.0,150000,"Halil Özel")
+    val İbrahim_Araba=Araba("Ferrari",2000,1800000.0,160000,"İbrahim Özel")
 
     println("------------------------------------")
-    println("Halil'in arabasının fiyatı : "+Halil_Araba.fiyatGoster()) // Halil'in arabasının fiyatı gösterildi.
-    println("Ferrari'nin sahibi : "+İbrahim_Araba.sahibiGoster()) //Ferrari'nin sahibi gösterildi.
+    println("Halil'in arabasının fiyatı : ${Halil_Araba.fiyatGoster()}") // Halil'in arabasının fiyatı gösterildi.
+    println("Ferrari'nin sahibi : ${İbrahim_Araba.sahibiGoster()}") //Ferrari'nin sahibi gösterildi.
 
 }

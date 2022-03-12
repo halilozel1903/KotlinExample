@@ -2,7 +2,7 @@
  * Created by ozel on 17.7.2017.
  */
 
-fun main(args: Array<String>) {
+fun main() {
 
     /*
     do-while döngüsü while döngüsünden tek farkı koşula bakılmaksızın do nun içindeki

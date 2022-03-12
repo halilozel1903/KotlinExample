@@ -1,7 +1,7 @@
 /**
  * Created by ozel on 17.7.2017.
  */
-fun main(args: Array<String>) {
+fun main() {
 
     /*
     Kotlin dilindeki While kullanımı Javada ki kullanıma benzemektedir.

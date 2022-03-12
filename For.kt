@@ -1,7 +1,7 @@
 /**
  * Created by ozel on 17.7.2017.
  */
-fun main(args: Array<String>) {
+fun main() {
 
     /*
     Java dilinde for yapısı : for(int sayi=0;i<=10;i++)
@@ -21,7 +21,7 @@ fun main(args: Array<String>) {
 
     val liste = listOf("Halil", "İbrahim", "Yusuf", "Emre")
     for (isim in liste) {
-        println("İsminiz : "+isim)
+        println("İsminiz : $isim")
     }
 
 }

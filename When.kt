@@ -1,7 +1,7 @@
 /**
  * Created by ozel on 17.7.2017.
  */
-fun main(args: Array<String>) {
+fun main() {
 
     /*
     When ifadesi switch-case yapısına benzemektedir.
@@ -11,7 +11,7 @@ fun main(args: Array<String>) {
     doğrulayıp programı sonlandırır.
      */
 
-    var sayi:Int= readLine()!!.toInt()
+    val sayi:Int= readLine()!!.toInt()
 
     when(sayi){
         1-> print("Girilen sayi 1")

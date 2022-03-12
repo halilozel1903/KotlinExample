@@ -4,7 +4,7 @@
 /**
  * Created by ozel on 13.7.2017.
  */
-fun main(args: Array<String>) {
+fun main() {
 
     /*
 

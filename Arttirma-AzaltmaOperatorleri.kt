@@ -1,10 +1,7 @@
 /**
  * Created by ozel on 15.7.2017.
  */
-/**
- * Created by ozel on 13.7.2017.
- */
-fun main(args: Array<String>) {
+fun main() {
 
     /*
     arttırma ve azaltma operatörleri toplam da 4 tanedir.
@@ -13,13 +10,13 @@ fun main(args: Array<String>) {
     Arkadan arttırma ve azaltmalarda ise ilk işleme girer sonra arttırma ya da azaltma yapılır.
      */
 
-    var sayi1:Int=5
+    var sayi1 =5
 
-    println("sayi1:"+(sayi1)) //sayi1 : 5
-    println("sayi1:"+(sayi1++)) //sayi1 : 5
-    println("sayi1:"+(++sayi1)) //sayi1 : 7
+    println("sayi1:$sayi1") //sayi1 : 5
+    println("sayi1:${sayi1++}") //sayi1 : 5
+    println("sayi1:${++sayi1}") //sayi1 : 7
     println("*******")
-    println("sayi1:"+(sayi1)) //sayi1 : 7
-    println("sayi1:"+(sayi1--)) //sayi1 : 7
-    println("sayi1:"+(--sayi1)) //sayi1 : 5
+    println("sayi1:$sayi1") //sayi1 : 7
+    println("sayi1:${sayi1--}") //sayi1 : 7
+    println("sayi1:${--sayi1}") //sayi1 : 5
 }

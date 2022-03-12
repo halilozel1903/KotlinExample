@@ -1,7 +1,7 @@
 /**
  * Created by ozel on 13.7.2017.
  */
-fun main(args: Array<String>) {
+fun main() {
 
     /*
     İşlem Öncelik Sırası
@@ -12,12 +12,12 @@ fun main(args: Array<String>) {
     5- =
      */
 
-    var sayi1: Int = 12
-    var sayi2: Int = 6
-    var sonuc: Int? //boş değer dönderebilir.
+    val sayi1 = 12
+    val sayi2 = 6
+    val sonuc: Int? //boş değer dönderebilir.
 
     sonuc = (sayi1 + sayi2) * sayi1 + 10 - sayi2 //işlem önceliğine göre işlemler yapılır.
 
-    print("sonuc : " + sonuc)
+    print("sonuc : $sonuc")
 
 }
