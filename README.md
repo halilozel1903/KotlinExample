@@ -2,13 +2,13 @@
 
 ![kotlin](https://www.udacity.com/blog/wp-content/uploads/2018/05/Kotlin-Udacity-Google.png)
 
-Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java Class Library, but type inference allows its syntax to be more concise.
+Kotlin is a **cross-platform**, statically typed, general-purpose programming language with type inference. Kotlin is designed to interoperate fully with Java, and the **JVM** version of Kotlin's standard library depends on the Java Class Library, but type inference allows its syntax to be more concise.
 
 Write better Android apps faster with Kotlin. Kotlin is a modern statically typed programming language used by over 60% of professional Android developers that helps boost productivity, developer satisfaction, and code safety.
 
-Many apps are already built with Kotlin—from the hottest startups to Fortune 500 companies. Learn how Kotlin has helped their teams become more productive and write higher quality apps.
+Many apps are already built with Kotlin-from the hottest startups to Fortune 500 companies. Learn how Kotlin has helped their teams become more productive and write higher quality apps.
 
-Kotlin is an open source project available at no charge under the Apache 2.0 license. The code for the project is developed openly on GitHub primarily by the team employed at JetBrains, with contributions from Google and others. Our choice of Kotlin reaffirms our commitment to an open developer ecosystem as we evolve and grow the Android platform, and we are excited to see the language evolve.
+Kotlin is an open source project available at no charge under the **Apache 2.0 License**. The code for the project is developed openly on GitHub primarily by the team employed at JetBrains, with contributions from Google and others. Our choice of Kotlin reaffirms our commitment to an open developer ecosystem as we evolve and grow the Android platform, and we are excited to see the language evolve.
 
 
 ## Contents 📚 📖 🔖
