@@ -50,7 +50,7 @@ Kotlin is an open source project available at no charge under the **Apache 2.0 L
 ```
 MIT License
 
-Copyright (c) 2022 Halil OZEL
+Copyright (c) 2023 Halil OZEL
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
